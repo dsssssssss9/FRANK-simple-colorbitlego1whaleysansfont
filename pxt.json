@@ -1,0 +1,32 @@
+{
+    "name": "Simple ColorbitLego1WhaleySansFont",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "tcs34725": "github:BrightWearables/pxt-tcs34725#v0.0.2",
+        "colorbit": "github:51bit/ColorBit#v0.1.2",
+        "WhaleySansFont": "github:makecode-extensions/WhaleySansFont#v1.1.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v4.0.9",
+        "tag": "v4.0.9",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/6c8222ce4e46b32453a41dc0fe5b41ba75aa2990",
+        "target": "4.0.9",
+        "pxt": "7.0.6",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
