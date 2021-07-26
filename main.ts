@@ -6,6 +6,8 @@ input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
     colorbit_51bit.clear()
 })
+// This function will "copy" the display om a Micro:Bit to a ColorBit 
+// 
 function CBit_Display () {
     for (let loop1 = 0; loop1 <= 4; loop1++) {
         for (let loop2 = 0; loop2 <= 4; loop2++) {
